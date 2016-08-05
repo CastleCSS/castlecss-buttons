@@ -1,0 +1,30 @@
+{
+  "name": "castlecss-buttons",
+  "version": "0.1.0",
+  "description": "Button files for CastleCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CastleCSS/castlecss-buttons.git"
+  },
+  "keywords": [
+    "buttons",
+    "castlecss",
+    "castle",
+    "css",
+    "scss",
+    "framework",
+    "building",
+    "blocks",
+    "modular"
+  ],
+  "author": "Darius Rosendahl <darius@denieuwezaak.nl> (https://github.com/CastleCSS)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CastleCSS/castlecss-buttons/issues"
+  },
+  "homepage": "https://github.com/CastleCSS/castlecss-buttons#readme"
+}

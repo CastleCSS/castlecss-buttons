@@ -1,0 +1,40 @@
+/* 	Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    height: 4rem; /* same as form element height */
+	font-family: $font-sec;
+    line-height: 1.3;
+	text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+    background: $theme01; color: $color01;
+    border: none; /* necessary for type button */
+	transition: all .2s ease-out;
+	border-radius: $radius;
+
+	&:hover {
+	    background: $color02; 
+	    color: $color01;
+	}
+}
+.btn-theme01 {
+	@extend .btn;
+	background-color: $theme01;
+	color: $color01;
+}
+.btn-theme02 {
+	@extend .btn;
+	background-color: $theme02;
+	color: $color01;
+}
+.btn-theme03 {
+	@extend .btn;
+	background-color: $theme03;
+	color: $color01;
+}
+.full-width {
+	clear: both;
+	width: 100%;
+}
