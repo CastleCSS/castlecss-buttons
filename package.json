@@ -1,6 +1,6 @@
 {
   "name": "castlecss-buttons",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Button files for CastleCSS",
   "main": "index.js",
   "scripts": {
