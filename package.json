@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/CastleCSS/castlecss-buttons/issues"
   },
-  "homepage": "https://github.com/CastleCSS/castlecss-buttons#readme"
+  "homepage": "https://github.com/CastleCSS/castlecss-buttons#readme",
+  "dependencies": {
+    "castlecss-core": "^1.8.1"
+  }
 }
