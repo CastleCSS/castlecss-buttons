@@ -1,7 +1,7 @@
 {
   "name": "castlecss-buttons",
-  "version": "0.4.1",
-  "description": "Button files for CastleCSS",
+  "version": "0.5.0",
+  "description": "Buttons package for CastleCSS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/CastleCSS/castlecss-buttons#readme",
   "dependencies": {
-    "castlecss-core": "^1.8.1"
+    "castlecss-core": "^2.0.1"
   }
 }
