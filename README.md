@@ -1,5 +1,5 @@
-# CastleCSS Icons Files
-CastleCSS basic button module
+# CastleCSS Buttons
+This is a subpackage for CastleCSS with example buttons to help you get started.
 
 ![CastleCSS logo @CastleCss.com](https://www.doordarius.nl/castlecss-logo-250.png)
 
@@ -17,7 +17,7 @@ Even easier: Download the [CastleCSS Boilerplate](https://www.github.com/CastleC
 - Download or clone the package
 
 ## Updating files
-CastleCSS is built so it's easy to update, you can just download make it your own as long as you don't ovewrite the core files. 
+CastleCSS is built so it's easy to update, you can just download make it your own as long as you don't ovewrite the core files.
 
 ```npm update castlecss-buttons```
 
@@ -31,12 +31,12 @@ With this you make sure your own variables overwrite the castle-core variables a
 ```
 | Your project/
 |
-|-- scss/ 
+|-- scss/
 | |-- /* Custom project specific scss files here */
 | |-- Main.scss
 | |
 |-- node_modules/
-| | 
+| |
 | | /*	CastleCSS files included automatically here */
 | | castlecss-core/
 | | castlecss-buttons/
@@ -57,7 +57,7 @@ Your main.scss should have a setup similair to this (included in the [CastleCSS 
 @import "node_modules/castlecss-core/sass/main";
 @import "node_modules/castlecss-buttons/sass/main";
 
- 
+
 /*  Include your own files below this line
     --------------------------------------
 */
