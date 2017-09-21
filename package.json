@@ -27,7 +27,7 @@
     "url": "https://github.com/CastleCSS/castlecss-buttons/issues"
   },
   "homepage": "https://github.com/CastleCSS/castlecss-buttons#readme",
-  "dependencies": {
-    "castlecss-core": "^2.0.1"
+  "peerDependencies": {
+    "castlecss-core": "^2.1.0"
   }
 }
