@@ -1,50 +1,82 @@
 /* 	Buttons */
-
-.btn {
-    display: inline-block;
-    padding: 1rem 1.5rem;
-    height: 4rem; /* same as form element height */
+%btn {
+	display: inline-block;
+	padding: 1rem 1.5rem;
+	min-height: 4rem; /* same as form element height */
 	font-family: $font-sec;
-    line-height: 1.3;
+	line-height: 1.3;
 	text-align: center;
-    text-decoration: none;
+	text-decoration: none;
 	cursor: pointer;
-    background-color: $theme01; color: $color01;
-    border: none; /* necessary for type button */
+	color: $color01;
+	background-color: $theme01;
+	border: none; /* necessary for type button */
 	transition: all .2s ease-out;
-	border-radius: $radius;
+	border-radius: 3px;
 
 	&:hover {
-	    background: $color02; 
-	    color: $color01;
+		color: $color01;
+		background-color: darken($theme01, 20);
 	}
 }
-.btn-theme01 {
-	@extend .btn;
-	background-color: $theme01;
-	color: $color01;
-}
-.btn-theme02 {
-	@extend .btn;
-	background-color: $theme02;
-	color: $color01;
-}
-.btn-theme03 {
-	@extend .btn;
-	background-color: $theme03;
-	color: $color01;
-}
-.btn-theme04 {
-	@extend .btn;
-	background-color: $theme04;
-	color: $color02;
-}
-.btn-theme05 {
-	@extend .btn;
-	background-color: $theme05;
-	color: $color02;
-}
-.btn-full {
-	clear: both;
-	width: 100%;
+
+.btn {
+	@extend %btn;
+
+	&-theme01 {
+		@extend %btn;
+		background-color: $theme01;
+		color: $color01;
+
+		&:hover {
+			background-color: darken($theme01, 20);
+		}
+	}
+
+	&-theme02 {
+		@extend %btn;
+		background-color: $theme02;
+		color: $color01;
+
+		&:hover {
+			background-color: darken($theme02, 20);
+		}
+	}
+
+	&-theme03 {
+		@extend %btn;
+		background-color: $theme03;
+		color: $color01;
+
+		&:hover {
+			background-color: darken($theme03, 20);
+		}
+	}
+
+	&-theme04 {
+		@extend %btn;
+		background-color: $theme04;
+		color: $color02;
+
+		&:hover {
+			background-color: darken($theme04, 20);
+		}
+	}
+
+	&-theme05 {
+		@extend %btn;
+		color: $color02;
+		background-color: $theme05;
+
+		&:hover {
+			background-color: darken($theme05, 20);
+		}
+
+	}
+
+	// extra utility class to make buttons full width
+	&-full {
+		clear: both;
+		width: 100%;
+	}
 }
