@@ -4,11 +4,12 @@ This is a subpackage for CastleCSS with example buttons to help you get started.
 ![CastleCSS logo @CastleCss.com](https://www.doordarius.nl/castlecss-logo-250.png)
 
 ## CastleCSS Framework
+Quickstart: Download the [CastleCSS Boilerplate](https://www.github.com/CastleCSS/castlecss-boilerplate). All Packages are included + examples and project setup
+
 The buttons module is part of the [CastleCSS Meta Package](https://github.com/CastleCSS/castlecss), you need this, the [castlecss-core](https://github.com/CastleCSS/castlecss) or create your own variables files in order to make castlecss-icons work.
 
 Since castlecss-buttons v0.5 the castlecss-core is automatically installed into your node_modules too.
 
-Even easier: Download the [CastleCSS Boilerplate](https://www.github.com/CastleCSS/castlecss-boilerplate). All Packages are included + examples and project setup
 
 ## How to install
 - Download the [CastleCSS Boilerplate](https://www.github.com/CastleCSS/castlecss-boilerplate). All Packages are included + examples and project setup
